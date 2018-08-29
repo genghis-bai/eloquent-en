@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="This is an online application that trains eloquence based on the 54 poker cards theory. Speaking is productivity, and speaking good is a necessary
+  condition for success.">
+  <meta name="keywords" content="54 poker cards eloquence, eloquence training, speaking is productivity, eloquence training">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="shortcut icon" href="./favicon.png">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+  <title>54 Poker Cards Eloquence Training APP</title>
+</head>
+
+<body class="bg-dark">
+
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-8 mx-auto">
+        <div class="card bg-primary text-white mt-5 mb-5 p-5">
+          <h1 class="mx-auto">54 Poker Cards Eloquence Training APP</h1>
+          <div class="form-group mt-4">
+            <select class="form-control mb-3 select-choice" id="wordLibrary">
+              <option value="0">Pick up Words Library</option>
+              <option value="a">Package One</option>
+              <option value="b">Package Two</option>
+              <option value="c">Package Three</option>
+              <option value="d">Package Four</option>
+              <option value="e">Package Five</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <select class="form-control mb-5 select-choice" id="wordNum">
+              <option value="0">Number of Words</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+            </select>
+          </div>
+          <a href="https://www.jianshu.com/p/695005e0b7e6" class="poker mb-5" target="_blank">About 54 Poker Eloquence Training
+            Theory
+          </a>
+
+          <div id="questionWrap">
+
+            <p>Question Words: <span id="questionWords"></span></p>
+            <p>Answer Words: <span id="answerWords"></span></p>
+
+            <input type="text" class="form-control mt-5" placeholder="Write the question here (optional. Be complicated, not a yes or no one.)"
+              id="question">
+            <textarea rows="5" class="form-control mt-5" placeholder="Write the answer here (optional. Must contain the vocabularies of the question words, and try to complete it within 30 seconds to 1 minute.)"
+              id="answer"></textarea>
+
+            <button type="button" id="button" class="btn btn-success btn-block mt-5 mx-auto">Download your Training txt File</button>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-md-8 mx-auto fixed-bottom mb-0 bg-dark pt5 mt-5">
+      <p class="text-dark text-center mt-3">© Copyright - Eloquence - by <a href="https://agandesign.com">AganDesign</a></p>
+    </div>
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>
