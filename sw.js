@@ -6,9 +6,9 @@ self.addEventListener("install", function(event) {
         "./js/main.js",
         "./css/style.css",
         "./index.html",
-        "./data.json",
-        "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css",
-        "https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+        "./data.json"
+        // "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css",
+        // "https://use.fontawesome.com/releases/v5.2.0/css/all.css"
       ]);
     })
   );
