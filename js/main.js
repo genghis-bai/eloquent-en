@@ -1,11 +1,8 @@
 // register service worker
 if ("serviceWorker" in navigator) {
-  try {
-    navigator.serviceWorker.register("sw.js");
-    //console.log(`SW registered`);
-  } catch (error) {
-    console.log("SW registered failed");
-  }
+  navigator.serviceWorker.register("sw.js").then(function() {
+    console.log("SW registered");
+  });
 }
 
 // set mutiple elements event listener
