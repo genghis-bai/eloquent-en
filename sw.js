@@ -23,7 +23,7 @@ self.addEventListener("fetch", function(event) {
       if (res) {
         return res;
       } else {
-        return fectch(event.request);
+        return fetch(event.request);
       }
     })
   );
