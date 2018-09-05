@@ -9,7 +9,7 @@ if ("serviceWorker" in navigator) {
 let select_choice = document.getElementsByClassName("select-choice");
 
 for (let i = 0; i < select_choice.length; i++) {
-  select_choice[i].addEventListener("change", eloquenceStart, false);
+  select_choice[i].addEventListener("input", eloquenceStart, false);
 }
 
 // main function
