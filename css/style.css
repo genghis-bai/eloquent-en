@@ -37,3 +37,7 @@ p a {
 .fixed-bottom a:hover {
   color: #343a40 !important;
 }
+
+.form-group {
+  display: block;
+}
