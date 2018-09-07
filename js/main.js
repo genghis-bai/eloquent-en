@@ -8,10 +8,10 @@ if ("serviceWorker" in navigator) {
 // set mutiple elements event listener
 let select_choice = document.getElementsByClassName("select-choice");
 
-let clickEvent = "ontouchstart" in window ? "touchend" : "click";
+//let clickEvent = "ontouchstart" in window ? "touchend" : "click";
 
 for (let i = 0; i < select_choice.length; i++) {
-  select_choice[i].addEventListener(clickEvent, eloquenceStart, false);
+  select_choice[i].addEventListener("click", eloquenceStart, false);
 }
 
 // main function
